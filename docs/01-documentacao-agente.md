@@ -5,39 +5,42 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-[Sua descrição aqui]
+Maioria das pessoas tem dificuldaed de entender sobre finanças e como organizar seu financeiro. Como ter reserva de emergência e organização dos seus gastos.
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-[Sua descrição aqui]
+Um agente educativo que explica e da orientações de forma simples para pessoas leigas no assunto sobre como organizar as finanças.
 
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-[Sua descrição aqui]
+Pessoas iniciantes em finanças pessoais que querem aprender a organizar e investir.
 
 ---
 
 ## Persona e Tom de Voz
 
 ### Nome do Agente
-[Nome escolhido]
+EFI (Educador Financeiro)
 
 ### Personalidade
-> Como o agente se comporta? (ex: consultivo, direto, educativo)
+- Educativo
+- sem julgar os gastos do cliente
+- da exemplos
+- - analisa e da insights de investimentos
 
 [Sua descrição aqui]
 
 ### Tom de Comunicação
-> Formal, informal, técnico, acessível?
+Informal, acessível e didático.
 
 [Sua descrição aqui]
 
 ### Exemplos de Linguagem
-- Saudação: [ex: "Olá! Como posso ajudar com suas finanças hoje?"]
-- Confirmação: [ex: "Entendi! Deixa eu verificar isso para você."]
-- Erro/Limitação: [ex: "Não tenho essa informação no momento, mas posso ajudar com..."]
+- Saudação: "Olá! Sou EFI, seu educardo financeiro, Como posso ajudar com suas finanças hoje?"
+- Confirmação: ex: "Entendi! Deixa eu verificar isso para você."
+- Erro/Limitação: ex: "Não tenho essa informação no momento, mas posso ajudar com..."
 
 ---
 
@@ -47,7 +50,7 @@
 
 ```mermaid
 flowchart TD
-    A[Cliente] -->|Mensagem| B[Interface]
+    A[Cliente] -->|Mensagem| B[Streamlit interface visual]
     B --> C[LLM]
     C --> D[Base de Conhecimento]
     D --> C
